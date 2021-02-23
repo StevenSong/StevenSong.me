@@ -1,45 +1,38 @@
+body {
+  background-color: #8ab5db;
+}
+
 .vertical-center {
-        min-height: 100vh;
-
-        display: flex;
-        align-items: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-a:visited {
-        color: white;
+a:hover, a:active, a:visited:hover {
+  text-decoration: none;
+  color: #cecece;
 }
 
-a:hover {
-        text-decoration: none;
-        color: #cecece;
-}
-
-a:active {
-        text-decoration: none;
-        color: #cecece;
-}
-
-a {
-        color: white;
+a, a:visited, h1 {
+  color: #383838;
 }
 
 hr {
-        display: block;
-        position: relative;
-        padding: 0;
-        margin: 8px auto;
-        height: 0;
-        width: 80%;
-        max-height: 0;
-        font-size: 1px;
-        line-height: 0;
-        clear: both;
-        border: none;
-        border-top: 1px solid #aaaaaa;
-        border-bottom: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 80%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-bottom: 1px solid #ffffff;
 }
 
 .fa {
-        padding-left: 5px;
-        padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
